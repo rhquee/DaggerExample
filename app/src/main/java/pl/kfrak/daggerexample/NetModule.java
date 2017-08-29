@@ -41,7 +41,7 @@ public class NetModule {
 
         return gsonBuilder.create();
     }
-
+//TESTOWY KOMENTARZ 4 continous integration
     @Provides
     @Singleton
     Retrofit provideRetrofit(Gson gson, OkHttpClient okHttpClient){
